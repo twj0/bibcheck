@@ -56,7 +56,7 @@ This will:
 ### Advanced Options
 
 ```bash
-python verify_references.py refs.bib -o my_report.txt --json --timeout 15 --delay-min 2 --delay-max 5
+python main.py refs.bib -o my_report.txt --json --timeout 15 --delay-min 2 --delay-max 5
 ```
 
 #### Command-line Arguments
@@ -72,7 +72,7 @@ python verify_references.py refs.bib -o my_report.txt --json --timeout 15 --dela
 
 ```bash
 # Verify refs.bib with custom settings
-python verify_references.py refs.bib -o report.txt --json --timeout 20 --delay-min 1.5 --delay-max 4
+python main.py refs.bib -o report.txt --json --timeout 20 --delay-min 1.5 --delay-max 4
 ```
 
 ## How It Works
